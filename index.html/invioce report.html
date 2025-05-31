@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Invoice Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #faffcc; /* very light yellow background */
+    }
+
+    img.logo {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 200px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgb(225, 232, 124);
+    }
+
+    th, td {
+      border: 1px solid #0008ff;
+      padding: 12px;
+      text-align: left;
+      background-color: #ffe600;
+      vertical-align: middle;
+    }
+
+    tbody tr:nth-child(odd) td {
+      background-color: #fff176;
+    }
+
+    tbody tr:nth-child(even) td {
+      background-color: #ffd54f;
+    }
+
+    .table-title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      background-color: #ffea00;
+      color: #000;
+    }
+
+    tfoot td {
+      font-weight: bold;
+      background-color: #fde400;
+    }
+
+    .product-img {
+      width: 80px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/512px-Samsung_Logo.svg.png" alt="Samsung Logo" class="logo" />
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="6" class="table-title">Invoice Report</th>
+      </tr>
+      <tr>
+        <th>Item Name</th>
+        <th>Price per Unit</th>
+        <th>Quantity</th>
+        <th>Website of Samsung</th>
+        <th>Image of product</th>
+        <th>Total Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Samsung S25 Ultra</td>
+        <td>Rs.64.0001</td>
+        <td>1</td>
+        <td><a href="https://www.samsung.com" target="_blank">www.samsung.com</a></td>
+        <td><img src="C:\Users\Kamaldeeep\Documents\Desktop\learing python\VisualSudio Code\learning html.jpg" alt="S25 Ultra" class="product-img" /></td>
+        <td>Rs.64.0001</td>
+      </tr>
+      <tr>
+        <td>Samsung S24 Ultra</td>
+        <td>Rs.54.0001</td>
+        <td>1</td>
+        <td><a href="https://www.samsung.com" target="_blank">www.samsung.com</a></td>
+        <td><img src="https://images.samsung.com/is/image/samsung/assets/global/galaxy-s24-ultra.jpg" alt="S24 Ultra" class="product-img" /></td>
+        <td>Rs.54.0001</td>
+      </tr>
+      <tr>
+        <td>Samsung S23 Ultra</td>
+        <td>Rs.52.0001</td>
+        <td>1</td>
+        <td><a href="https://www.samsung.com" target="_blank">www.samsung.com</a></td>
+        <td><img src="https://images.samsung.com/is/image/samsung/p6pim/in/2301/gallery/in-galaxy-s23-ultra-s918-446429-sm-s918bzkginu-534210834" alt="S23 Ultra" class="product-img" /></td>
+        <td>Rs.52.0001</td>
+      </tr>
+      <tr>
+        <td>Samsung S22 Ultra</td>
+        <td>Rs.49.0001</td>
+        <td>1</td>
+        <td><a href="https://www.samsung.com" target="_blank">www.samsung.com</a></td>
+        <td><img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s908edrginu/gallery/in-galaxy-s22-ultra-s908-sm-s908edrginu-530498528" alt="S22 Ultra" class="product-img" /></td>
+        <td>Rs.49.0001</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Total</td>
+        <td>Rs.219.0004</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
